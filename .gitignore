@@ -14,11 +14,11 @@
 .cxx
 local.properties
 
-.gitignore
-.idea/
-build.gradle.kts
-gradle.properties
-gradle/
-gradlew
-gradlew.bat
-settings.gradle.kts
+#.gitignore
+#.idea/
+#build.gradle.kts
+#gradle.properties
+#gradle/
+#gradlew
+#gradlew.bat
+#settings.gradle.kts
