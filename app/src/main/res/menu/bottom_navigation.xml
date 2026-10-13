@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_home"
+        android:title="Home"
+        android:icon="@drawable/outline_cottage_24"/>
+
+    <item
+        android:id="@+id/action_game"
+        android:title="Game"
+        android:icon="@drawable/outline_chess_knight_24"/>
+
+    <item
+        android:id="@+id/action_progress"
+        android:icon="?attr/actionModePasteDrawable"
+        android:title="Progress" />
+
+    <item
+        android:id="@+id/action_course"
+        android:title="Course"
+        android:icon="@drawable/outline_book_5_24"/>
+    <item
+        android:id="@+id/action_profile"
+        android:title="Profile"
+        android:icon="@drawable/outline_contacts_product_24"/>
+</menu>

@@ -12,6 +12,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PythonTutorial">
         <activity
+            android:name=".activity_progress"
+            android:exported="false" />
+        <activity
+            android:name=".activity_profile"
+            android:exported="false" />
+        <activity
+            android:name=".activity_course"
+            android:exported="false" />
+        <activity
+            android:name=".activity_game"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>

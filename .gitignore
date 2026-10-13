@@ -21,3 +21,5 @@ gradle/
 gradlew
 gradlew.bat
 settings.gradle.kts
+.idea/gradle.xml
+.idea/misc.xml
