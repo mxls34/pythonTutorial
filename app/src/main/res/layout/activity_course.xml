@@ -36,13 +36,12 @@
 
     </LinearLayout>
 
-    <GridView
-        android:id="@+id/gridCourse"
+    <ListView
+        android:id="@+id/viewCourse"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:numColumns="1"
-        android:verticalSpacing="16dp"
-        android:horizontalSpacing="16dp"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="16dp"
         android:padding="16dp"
         android:layout_marginBottom="30dp"
         android:clipToPadding="false"/>

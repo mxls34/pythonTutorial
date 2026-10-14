@@ -12,6 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PythonTutorial">
         <activity
+            android:name=".activity_lesson_class"
+            android:exported="false" />
+        <activity
+            android:name=".activity_function"
+            android:exported="false" />
+        <activity
+            android:name=".activity_operator"
+            android:exported="false" />
+        <activity
+            android:name=".activity_datatype"
+            android:exported="false" />
+        <activity
+            android:name=".activity_index"
+            android:exported="false" />
+        <activity
+            android:name=".activity_variable"
+            android:exported="false" />
+        <activity
             android:name=".activity_progress"
             android:exported="false" />
         <activity
