@@ -32,24 +32,6 @@
                 android:shadowDy="10"
                 android:shadowRadius="15"  />
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Presented By"
-                android:paddingVertical="20dp"
-                android:paddingLeft="10dp"
-                android:textSize="30sp"
-                android:textStyle="bold" />
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:gravity="center"
-                android:text="@string/author_name"
-                android:textStyle="bold"
-                android:background="@drawable/bg_glass"
-                android:textSize="20sp"/>
-
 
             <TextView
                 android:layout_width="match_parent"
