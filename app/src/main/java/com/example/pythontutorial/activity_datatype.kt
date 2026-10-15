@@ -1,5 +1,6 @@
 package com.example.pythontutorial
 
+import android.graphics.Color
 import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.LinearLayout
@@ -15,9 +16,9 @@ class activity_datatype : AppCompatActivity() {
     lateinit var showLesson: LinearLayout
 
     val lessonData: Array<Lesson> = arrayOf(
-        Lesson("รู้จักตัวแปร", R.string.variable_content),
-        Lesson("ชนิดข้อมูลพื้นฐาน,", R.string.variable_content),
-        Lesson("การจัดการข้อมูล", R.string.variable_content)
+        Lesson("รู้จักชนิดของข้อมูล", R.string.datatype_content),
+        Lesson("ตัวอย่าง", R.string.datatype_content1),
+        Lesson("การจัดการข้อมูล", R.string.datatype_content2)
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -32,8 +33,12 @@ class activity_datatype : AppCompatActivity() {
             finish()
         }
 
-        for (lesson in lessonData){
+        for ((index,lesson) in lessonData.withIndex()){
             val row = layoutInflater.inflate(R.layout.lesson, showLesson, false)
+
+            if (index == 1){
+                row.setBackgroundResource(R.drawable.bg_code)
+            }
 
             row.findViewById<TextView>(R.id.titleLesson).text = lesson.title
             row.findViewById<TextView>(R.id.contentLesson).setText(lesson.content)
