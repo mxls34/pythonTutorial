@@ -28,8 +28,8 @@
         <font color="#ACACAC">OUTPUT : </font> \n \t
         <font color="#ACACAC">>> 15</font>
     </string>
-    <string name="variable_content2">
-
+    <string name="variable_quiz">
+        ข้อใดสร้างตัวแปรได้ถูกต้อง?
     </string>
 
     <!--    INDEX-->
@@ -54,8 +54,8 @@
         <font color="#ACACAC">>> กล้วย</font>\n \t
         <font color="#ACACAC">>> ส้ม</font>
     </string>
-    <string name="index_content2">
-
+    <string name="index_quiz">
+        ถ้า fruits เป็น list ที่เก็บ [\"แอปเปิล\", \"กล้วย\", \"ส้ม\"] ตามลำดับ แล้ว fruits[0] คืออะไร?
     </string>
 
     <!--    DATA TYPE-->
@@ -83,8 +83,8 @@
         <font color="#ACACAC">&gt;&gt; &lt;class \'str\'&gt;</font>\n \t
         <font color="#ACACAC">&gt;&gt; &lt;class \'bool\'&gt;</font>
     </string>
-    <string name="datatype_content2">
-
+    <string name="datatype_quiz">
+        เลข 15 เป็นข้อมูลชนิดใด?
     </string>
 
     <!--    OPERATOR-->
@@ -115,8 +115,8 @@
         <font color="#ACACAC">&gt;&gt; True</font>\n \t
         <font color="#ACACAC">&gt;&gt; False</font>
     </string>
-    <string name="operator_content2">
-
+    <string name="operator_quiz">
+        10 % 3 ได้ผลลัพธ์เท่าไร (หารเอาเศษ)?
     </string>
 
     <!--    FUNCTION-->
@@ -138,8 +138,8 @@
         <font color="#ACACAC">&gt;&gt; 8</font>\n \t
         <font color="#ACACAC">&gt;&gt; สวัสดี Alex</font>
     </string>
-    <string name="function_content2">
-
+    <string name="function_quiz">
+        ถ้าฟังก์ชัน add(a, b) คืนค่า a + b แล้ว print(add(2, 3)) จะแสดงอะไร?
     </string>
 
     <!--    CLASS-->
@@ -164,8 +164,8 @@
         <font color="#ACACAC">&gt;&gt; ฉันชื่อ Alex</font>\n \t
         <font color="#ACACAC">&gt;&gt; 16</font>
     </string>
-    <string name="class_content2">
-
+    <string name="class_quiz">
+        ฟังก์ชัน __init__ ในคลาสทำงานเมื่อใด?
     </string>
 
 </resources>

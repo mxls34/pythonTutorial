@@ -23,4 +23,12 @@
         android:gravity="center_vertical"
         android:text="@string/variable_content"/>
 
+    <RadioGroup
+        android:id="@+id/choices"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+
+
 </LinearLayout>
