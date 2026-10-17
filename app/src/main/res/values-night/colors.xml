@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="app_background">#121212</color>
+    <color name="app_text">#E6E1E5</color>
+    <color name="card_fill_start">#26FFFFFF</color>
+    <color name="card_fill_end">#0DFFFFFF</color>
+    <color name="card_stroke">#33FFFFFF</color>
+    <color name="glass_body">#14FFFFFF</color>
+    <color name="glass_light_start">#26FFFFFF</color>
+    <color name="glass_light_center">#05FFFFFF</color>
+    <color name="glass_light_end">#0DFFFFFF</color>
+    <color name="glass_rim">#40FFFFFF</color>
+    <color name="glass_rim_inner">#14FFFFFF</color>
+    <color name="bg_overlay">#B3000000</color>
+    <color name="title_color">#9FA8DA</color>
+</resources>

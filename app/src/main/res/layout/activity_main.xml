@@ -8,29 +8,52 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
+    <!-- 1. รูปพื้นหลัง (ย้ายมาจาก LinearLayout) -->
+    <ImageView
+        android:id="@+id/bgImage"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/bg_python_blur"
+        android:importantForAccessibility="no"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- 2. ฟิลเตอร์มืด (โหมดสว่างโปร่งใส โหมดมืดดำโปร่งแสง) -->
+    <View
+        android:id="@+id/bgOverlay"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@color/bg_overlay"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
     <LinearLayout
         android:id="@+id/linear"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:background="@drawable/bg_python_blur"
         app:layout_constraintTop_toTopOf="parent"
         tools:layout_editor_absoluteX="1dp"
         tools:layout_editor_absoluteY="81dp">
 
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Basic Python Tutorial"
-                android:textAlignment="center"
-                android:padding="10dp"
-                android:textSize="36sp"
-                android:textColor="#0D1A89"
-                android:textStyle="bold|italic"
-                android:shadowColor="#66000000"
-                android:shadowDx="10"
-                android:shadowDy="10"
-                android:shadowRadius="15"  />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Basic Python Tutorial"
+            android:textAlignment="center"
+            android:padding="10dp"
+            android:textSize="36sp"
+            android:textColor="@color/title_color"
+            android:textStyle="bold|italic"
+            android:shadowColor="#66000000"
+            android:shadowDx="10"
+            android:shadowDy="10"
+            android:shadowRadius="15" />
 
 
             <TextView
@@ -60,6 +83,8 @@
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
         android:background="@drawable/bg_glass"
+        app:itemIconTint="@color/app_text"
+        app:itemTextColor="@color/app_text"
         app:menu="@menu/bottom_navigation" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
