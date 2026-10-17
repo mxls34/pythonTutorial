@@ -10,7 +10,8 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.PythonTutorial">
+        android:theme="@style/Theme.PythonTutorial"
+        android:name=".MyApp">
         <activity
             android:name=".activity_progress"
             android:exported="false" />
