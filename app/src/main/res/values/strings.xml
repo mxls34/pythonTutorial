@@ -4,6 +4,7 @@
         6706021612143 ณัฐกรณ์ มะลิซ้อน\n
         \n6706021612097 รพีภัทร นามาบ
     </string>
+
     <string name="app_purpose">
         แอปพลิเคชันนี้จัดทำขึ้นเพื่อเป็นสื่อการเรียนรู้ภาษา Python ขั้นพื้นฐานที่ทุกคนสามารถใช้งานได้ฟรี โดยไม่มีค่าใช้จ่าย
         เพื่อลดความเหลื่อมล้ำในการเข้าถึงความรู้ด้านการเขียนโปรแกรม ผู้ใช้สามารถเรียนรู้ได้ทุกที่ทุกเวลาผ่านโทรศัพท์มือถือ
@@ -11,4 +12,160 @@
         นอกจากนี้ ผู้จัดทำยังได้ฝึกนำความรู้ภาษา Kotlin และโปรแกรม Android Studio
         มาพัฒนาแอปพลิเคชันที่ใช้งานได้จริง เพื่อเพิ่มทักษะการพัฒนาแอปพลิเคชันบนระบบปฏิบัติการ Android
     </string>
+
+    <string name="variable_content">
+        ตัวแปร (Variable) คือ "กล่องเก็บข้อมูล" ในโปรแกรม ที่เราตั้งชื่อให้ได้เอง เพื่อเอาไว้จำค่าต่างๆ แล้วเรียกใช้ทีหลัง
+        เหมือนกล่องที่เราเขียนป้ายชื่อแปะไว้ เช่น กล่องชื่อ age ใส่เลข 15 หรือกล่องชื่อ name ใส่คำว่า “Alex” ใน Python
+        เขียนแค่ age = 15 ก็สร้างตัวแปรได้แล้ว เวลาต้องการใช้ค่า ก็แค่เรียกชื่อกล่อง เช่น print(age)
+        โปรแกรมก็จะแสดงเลข 15 ออกมา ที่สำคัญคือของในกล่องเปลี่ยนได้เสมอ ถ้าเขียน age = 16 ค่าเดิมก็จะถูกแทนที่ด้วยค่าใหม่ทันที
+        ตัวแปรจึงทำให้โปรแกรมจำข้อมูลได้และนำไปคำนวณหรือแสดงผลต่อได้ง่ายขึ้น
+    </string>
+    <string name="variable_content1">
+        <font color="#5B3FD6"><tt>age</tt></font> \t
+        <font color="#107C10"><tt># กำหนดตัวแปร</tt></font> \n
+        <font color="#5B3FD6"><tt>age</tt></font> = 15\n
+        <font color="#5B3FD6"><tt>print(</tt></font>age<font color="#5B3FD6"><tt>)</tt></font>\n \n
+        <font color="#ACACAC">OUTPUT : </font> \n \t
+        <font color="#ACACAC">>> 15</font>
+    </string>
+    <string name="variable_quiz">
+        ข้อใดสร้างตัวแปรได้ถูกต้อง?
+    </string>
+
+    <!--    INDEX-->
+
+    <string name="index_content">
+        Index (อินเด็กซ์) คือ "หมายเลขตำแหน่ง" ของข้อมูลแต่ละตัวใน list \n
+        ที่บอกลำดับ เช่น fruits = ["แอปเปิล", "กล้วย", "ส้ม"] ใน Python จะนับตำแหน่งเริ่มจาก 0 \n
+        ไม่ใช่ 1 ดังนั้น "แอปเปิล" อยู่ index 0, "กล้วย" อยู่ index 1 และ "ส้ม" อยู่ index 2 \n
+        ถ้าอยากได้ข้อมูลตัวไหน ก็แค่ใส่เลข index ในวงเล็บเหลี่ยม เช่น fruits[1] จะได้ "กล้วย" ออกมา \n
+        และถ้าใช้ index ติดลบ เช่น fruits[-1] จะได้ตัวสุดท้ายคือ "ส้ม" \n
+        <font color="#F10000">**ข้อควรระวังคือ ถ้าเรียก index ที่ไม่มีอยู่จริง เช่น fruits[5] โปรแกรมจะแจ้ง error ว่าเกินขอบเขตของ list</font>
+    </string>
+    <string name="index_content1">
+        <font color="#107C10"><tt># สร้าง list ผลไม้</tt></font>\n
+        <font color="#5B3FD6"><tt>fruits</tt></font> = [\"แอปเปิล\", \"กล้วย\", \"ส้ม\"]\n \n
+        <font color="#107C10"><tt># เรียกข้อมูลด้วย index</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>fruits[0]<font color="#5B3FD6"><tt>)</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>fruits[1]<font color="#5B3FD6"><tt>)</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>fruits[-1]<font color="#5B3FD6"><tt>)</tt></font>\n \n
+        <font color="#ACACAC">OUTPUT : </font>\n \t
+        <font color="#ACACAC">>> แอปเปิล</font>\n \t
+        <font color="#ACACAC">>> กล้วย</font>\n \t
+        <font color="#ACACAC">>> ส้ม</font>
+    </string>
+    <string name="index_quiz">
+        ถ้า fruits เป็น list ที่เก็บ [\"แอปเปิล\", \"กล้วย\", \"ส้ม\"] ตามลำดับ แล้ว fruits[0] คืออะไร?
+    </string>
+
+    <!--    DATA TYPE-->
+
+    <string name="datatype_content">
+        ชนิดข้อมูล (Data Type) คือ "ประเภท" ของค่าที่เก็บอยู่ในตัวแปร ใน Python
+        มีชนิดพื้นฐาน 4 แบบ คือ <tt>int</tt> (จำนวนเต็ม เช่น 15), <tt>float</tt> (ทศนิยม เช่น 165.5), <tt>str</tt> (ข้อความ ต้องอยู่ในเครื่องหมายคำพูด เช่น \"Alex\")
+        และ <tt>bool</tt> (ค่าความจริง มีแค่ True หรือ False) ถ้าอยากรู้ว่าตัวแปรเก็บข้อมูลชนิดไหน ให้ใช้คำสั่ง <tt>type()</tt> ครอบชื่อตัวแปร การรู้ชนิดข้อมูลสำคัญมาก
+        เพราะข้อมูลต่างชนิดกันจะใช้งานต่างกัน เช่น ตัวเลขบวกกันได้ผลรวม แต่ข้อความบวกกันจะเป็นการต่อคำ
+    </string>
+    <string name="datatype_content1">
+        <font color="#107C10"><tt># ชนิดข้อมูลพื้นฐาน</tt></font>\n
+        <font color="#5B3FD6"><tt>age</tt></font> = 15\n
+        <font color="#5B3FD6"><tt>height</tt></font> = 165.5\n
+        <font color="#5B3FD6"><tt>name</tt></font> = \"Alex\"\n
+        <font color="#5B3FD6"><tt>is_student</tt></font> = True\n \n
+        <font color="#107C10"><tt># ตรวจสอบชนิดข้อมูลด้วย type()</tt></font>\n
+        <font color="#5B3FD6"><tt>print(type(</tt></font>age<font color="#5B3FD6"><tt>))</tt></font>\n
+        <font color="#5B3FD6"><tt>print(type(</tt></font>height<font color="#5B3FD6"><tt>))</tt></font>\n
+        <font color="#5B3FD6"><tt>print(type(</tt></font>name<font color="#5B3FD6"><tt>))</tt></font>\n
+        <font color="#5B3FD6"><tt>print(type(</tt></font>is_student<font color="#5B3FD6"><tt>))</tt></font>\n \n
+        <font color="#ACACAC">OUTPUT : </font>\n \t
+        <font color="#ACACAC">&gt;&gt; &lt;class \'int\'&gt;</font>\n \t
+        <font color="#ACACAC">&gt;&gt; &lt;class \'float\'&gt;</font>\n \t
+        <font color="#ACACAC">&gt;&gt; &lt;class \'str\'&gt;</font>\n \t
+        <font color="#ACACAC">&gt;&gt; &lt;class \'bool\'&gt;</font>
+    </string>
+    <string name="datatype_quiz">
+        เลข 15 เป็นข้อมูลชนิดใด?
+    </string>
+
+    <!--    OPERATOR-->
+
+    <string name="operator_content">
+        ตัวดำเนินการ (Operator) คือ สัญลักษณ์ที่ใช้สั่งให้โปรแกรมคำนวณหรือเปรียบเทียบค่า เหมือนเครื่องหมายในวิชาคณิตศาสตร์ เช่น <tt>+</tt> (บวก) <tt>-</tt> (ลบ) <tt>*</tt> (คูณ) <tt>/</tt> (หาร) นอกจากนี้ยังมี <tt>//</tt> (หารเอาแต่จำนวนเต็ม) และ <tt>%</tt> (หารเอาเศษ) อีกกลุ่มคือตัวเปรียบเทียบ เช่น <tt>==</tt> (เท่ากับ) <tt>!=</tt> (ไม่เท่ากับ) <tt>&gt;</tt> (มากกว่า) <tt>&lt;</tt> (น้อยกว่า) ซึ่งผลลัพธ์จะเป็น True หรือ False เสมอ ข้อควรระวังคือ <tt>=</tt> ตัวเดียวใช้กำหนดค่าให้ตัวแปร ส่วน <tt>==</tt> สองตัวใช้เปรียบเทียบว่าเท่ากันหรือไม่
+    </string>
+    <string name="operator_content1">
+        <font color="#5B3FD6"><tt>a</tt></font> = 10\n
+        <font color="#5B3FD6"><tt>b</tt></font> = 4\n \n
+        <font color="#107C10"><tt># ตัวดำเนินการคำนวณ</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>a + b<font color="#5B3FD6"><tt>)</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>a - b<font color="#5B3FD6"><tt>)</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>a * b<font color="#5B3FD6"><tt>)</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>a / b<font color="#5B3FD6"><tt>)</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>a // b<font color="#5B3FD6"><tt>)</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>a % b<font color="#5B3FD6"><tt>)</tt></font>\n \n
+        <font color="#107C10"><tt># ตัวดำเนินการเปรียบเทียบ</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>a &gt; b<font color="#5B3FD6"><tt>)</tt></font>\n
+        <font color="#5B3FD6"><tt>print(</tt></font>a == b<font color="#5B3FD6"><tt>)</tt></font>\n \n
+        <font color="#ACACAC">OUTPUT : </font>\n \t
+        <font color="#ACACAC">&gt;&gt; 14</font>\n \t
+        <font color="#ACACAC">&gt;&gt; 6</font>\n \t
+        <font color="#ACACAC">&gt;&gt; 40</font>\n \t
+        <font color="#ACACAC">&gt;&gt; 2.5</font>\n \t
+        <font color="#ACACAC">&gt;&gt; 2</font>\n \t
+        <font color="#ACACAC">&gt;&gt; 2</font>\n \t
+        <font color="#ACACAC">&gt;&gt; True</font>\n \t
+        <font color="#ACACAC">&gt;&gt; False</font>
+    </string>
+    <string name="operator_quiz">
+        10 % 3 ได้ผลลัพธ์เท่าไร (หารเอาเศษ)?
+    </string>
+
+    <!--    FUNCTION-->
+
+    <string name="function_content">
+        ฟังก์ชัน (Function) คือ ชุดคำสั่งที่เรารวมไว้แล้วตั้งชื่อให้ เพื่อเรียกใช้ซ้ำได้หลายครั้งโดยไม่ต้องเขียนใหม่ เหมือนสูตรทำอาหารที่เขียนไว้ครั้งเดียวแล้วหยิบมาใช้ได้ทุกครั้ง ใน Python สร้างฟังก์ชันด้วยคำว่า <tt>def</tt> ตามด้วยชื่อและวงเล็บ ข้อมูลที่ส่งเข้าไปในวงเล็บเรียกว่า พารามิเตอร์ (parameter) และใช้คำว่า <tt>return</tt> เพื่อส่งผลลัพธ์กลับออกมา คำสั่งที่อยู่ในฟังก์ชันต้องย่อหน้าเข้าไปเสมอ จริงๆ แล้วเราใช้ฟังก์ชันมาตั้งแต่แรก เพราะ <tt>print()</tt> และ <tt>type()</tt> ก็เป็นฟังก์ชันที่ Python เตรียมไว้ให้
+    </string>
+    <string name="function_content1">
+        <font color="#107C10"><tt># สร้างฟังก์ชันด้วย def</tt></font>\n
+        <font color="#5B3FD6"><tt>def</tt></font> add(a, b):\n
+        \t<font color="#5B3FD6"><tt>return</tt></font> a + b\n \n
+        <font color="#5B3FD6"><tt>def</tt></font> greet(name):\n
+        \t<font color="#5B3FD6"><tt>print(</tt></font>\"สวัสดี \" + name<font color="#5B3FD6"><tt>)</tt></font>\n \n
+        <font color="#107C10"><tt># เรียกใช้ฟังก์ชัน</tt></font>\n
+        <font color="#5B3FD6"><tt>result</tt></font> = add(5, 3)\n
+        <font color="#5B3FD6"><tt>print(</tt></font>result<font color="#5B3FD6"><tt>)</tt></font>\n
+        greet(\"Alex\")\n \n
+        <font color="#ACACAC">OUTPUT : </font>\n \t
+        <font color="#ACACAC">&gt;&gt; 8</font>\n \t
+        <font color="#ACACAC">&gt;&gt; สวัสดี Alex</font>
+    </string>
+    <string name="function_quiz">
+        ถ้าฟังก์ชัน add(a, b) คืนค่า a + b แล้ว print(add(2, 3)) จะแสดงอะไร?
+    </string>
+
+    <!--    CLASS-->
+
+    <string name="class_content">
+        คลาส (Class) คือ "แม่แบบ" หรือพิมพ์เขียวสำหรับสร้างวัตถุ (Object) เหมือนแบบพิมพ์ขนม ที่ใช้แบบเดียวทำขนมได้หลายชิ้น และแต่ละชิ้นใส่ไส้ต่างกันได้ ในคลาสมี 2 ส่วนหลัก คือ ข้อมูล (attribute) เช่น ชื่อ อายุ และความสามารถ (method) ซึ่งก็คือฟังก์ชันที่อยู่ในคลาส เช่น การแนะนำตัว ใน Python สร้างคลาสด้วยคำว่า <tt>class</tt> และใช้ <tt>__init__</tt> เป็นฟังก์ชันพิเศษที่ทำงานทันทีตอนสร้างวัตถุ เพื่อกำหนดค่าเริ่มต้น ส่วนคำว่า <tt>self</tt> หมายถึงวัตถุตัวนั้นเอง
+    </string>
+    <string name="class_content1">
+        <font color="#107C10"><tt># สร้างคลาส (แม่แบบ)</tt></font>\n
+        <font color="#5B3FD6"><tt>class</tt></font> Student:\n
+        \t<font color="#5B3FD6"><tt>def</tt></font> __init__(self, name, age):\n
+        \t\tself.name = name\n
+        \t\tself.age = age\n \n
+        \t<font color="#5B3FD6"><tt>def</tt></font> introduce(self):\n
+        \t\t<font color="#5B3FD6"><tt>print(</tt></font>\"ฉันชื่อ \" + self.name<font color="#5B3FD6"><tt>)</tt></font>\n \n
+        <font color="#107C10"><tt># สร้างวัตถุจากคลาส</tt></font>\n
+        <font color="#5B3FD6"><tt>s1</tt></font> = Student(\"Alex\", 15)\n
+        <font color="#5B3FD6"><tt>s2</tt></font> = Student(\"Mint\", 16)\n \n
+        s1.introduce()\n
+        <font color="#5B3FD6"><tt>print(</tt></font>s2.age<font color="#5B3FD6"><tt>)</tt></font>\n \n
+        <font color="#ACACAC">OUTPUT : </font>\n \t
+        <font color="#ACACAC">&gt;&gt; ฉันชื่อ Alex</font>\n \t
+        <font color="#ACACAC">&gt;&gt; 16</font>
+    </string>
+    <string name="class_quiz">
+        ฟังก์ชัน __init__ ในคลาสทำงานเมื่อใด?
+    </string>
+
 </resources>

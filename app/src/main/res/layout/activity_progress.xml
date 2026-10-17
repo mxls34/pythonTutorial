@@ -1,21 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_progress">
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".activity_progress" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_glass"
+            app:srcCompat="@drawable/outline_arrow_back" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:text="Progress" />
+
+    </LinearLayout>
 
     <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
+        android:paddingHorizontal="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="#FFA500"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="195dp"
-        android:layout_marginTop="356dp"
-        android:layout_marginEnd="158dp"
-        android:text="progress"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:text="FINISH" />
+
+    <ListView
+        android:id="@+id/finish"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="280dp"/>
+
+    <TextView
+        android:paddingHorizontal="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold|italic"
+        android:textColor="#FFA500"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NO FINISH YET" />
+
+    <ListView
+        android:id="@+id/notFinish"
+        android:layout_width="300dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="280dp"/>
+
+    <TextView
+        android:id="@+id/totalScore"
+        android:layout_marginTop="10dp"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="#87F6E766"
+        android:paddingLeft="15dp"
+        android:textStyle="bold"
+        android:text="Total" />
+
+</LinearLayout>

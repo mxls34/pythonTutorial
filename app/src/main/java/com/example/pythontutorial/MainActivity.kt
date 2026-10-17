@@ -16,6 +16,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+//        val database: DatabaseHelper = DatabaseHelper(this)
+
         bottomNavigate = findViewById(R.id.navigation)
         bottomNavigate.setOnItemSelectedListener { item ->
             if (item.itemId == R.id.action_home) {
@@ -27,6 +29,7 @@ class MainActivity : AppCompatActivity() {
                 startActivity(Intent(this, activity_course::class.java))
                 true
             } else if (item.itemId == R.id.action_profile) {
+//                database.deleteAll()
                 startActivity(Intent(this, activity_profile::class.java))
                 true
             } else if(item.itemId == R.id.action_progress) {
