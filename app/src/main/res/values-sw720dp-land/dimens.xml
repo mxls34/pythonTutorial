@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- การ์ดในหน้า Course (แท็บเล็ต 10 นิ้ว แนวนอน = มือถือแนวนอน x2) -->
+    <dimen name="course_card_height">440dp</dimen>
+    <dimen name="course_image_height">220dp</dimen>
+</resources>

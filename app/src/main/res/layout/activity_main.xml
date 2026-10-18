@@ -53,8 +53,8 @@
             android:layout_height="wrap_content"
             android:text="Basic Python Tutorial"
             android:textAlignment="center"
-            android:padding="10dp"
-            android:textSize="36sp"
+            android:padding="@dimen/dp_10"
+            android:textSize="@dimen/sp_36"
             android:textColor="@color/title_color"
             android:textStyle="bold|italic"
             android:shadowColor="#66000000"
@@ -67,18 +67,18 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Purpose : "
-                android:paddingVertical="20dp"
-                android:paddingLeft="10dp"
-                android:textSize="30sp"
+                android:paddingVertical="@dimen/dp_20"
+                android:paddingLeft="@dimen/dp_10"
+                android:textSize="@dimen/sp_30"
                 android:textStyle="bold" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:padding="20dp"
+                android:padding="@dimen/dp_20"
                 android:text="@string/app_purpose"
                 android:background="@drawable/bg_glass"
-                android:textSize="16sp"/>
+                android:textSize="@dimen/sp_16"/>
 
 
 
@@ -88,6 +88,7 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/navigation"
+        style="@style/MainNav"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"

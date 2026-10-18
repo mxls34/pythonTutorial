@@ -4,15 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="@dimen/course_card_height"
-    app:cardCornerRadius="15dp"
+    app:cardCornerRadius="@dimen/dp_15"
     app:cardElevation="4dp"
-    android:layout_marginBottom="16dp">
+    android:layout_marginBottom="@dimen/dp_16">
 
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_margin="5dp"
+        android:layout_margin="@dimen/dp_5"
         android:orientation="vertical">
 
         <ImageView
@@ -21,15 +21,15 @@
             android:layout_height="@dimen/course_image_height"
             android:layout_gravity="center"
             android:scaleType="fitXY"
-            android:layout_margin="3dp"
+            android:layout_margin="@dimen/dp_3"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
             android:id="@+id/courseTitle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:textSize="16sp"
+            android:paddingLeft="@dimen/dp_10"
+            android:textSize="@dimen/sp_16"
             android:textStyle="bold"
             android:text="title" />
 
@@ -38,8 +38,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
-            android:paddingLeft="20dp"
-            android:layout_marginTop="5dp"
+            android:paddingLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_5"
+            android:textSize="@dimen/sp_14"
             android:text="TextView" />
     </LinearLayout>
 
