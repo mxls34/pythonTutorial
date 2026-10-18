@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- แนวนอน (land) : ลิสต์ FINISH กับ NO FINISH YET อยู่ข้างกัน Total Score อยู่ด้านล่าง (id เหมือนไฟล์แนวตั้งทุกตัว) -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"

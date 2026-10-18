@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- เมนูด้านล่างหน้า Main บนแท็บเล็ต : ขยายตาม dimens (ค่าบนมือถือของ Material3 คูณ 1.5 / 2) -->
     <style name="MainNav" parent="Widget.Material3.BottomNavigationView">
         <item name="android:minHeight">@dimen/dp_80</item>
         <item name="itemIconSize">@dimen/dp_24</item>

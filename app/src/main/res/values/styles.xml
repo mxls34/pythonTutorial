@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- เมนูด้านล่างหน้า Main : มือถือใช้ค่าเดิมของ Material ทั้งหมด -->
     <style name="MainNav" parent="Widget.Material3.BottomNavigationView" />
 </resources>

@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- แนวนอน (land) : "Purpose :" อยู่ซ้าย ข้อความอยู่ขวา (id เหมือนไฟล์แนวตั้งทุกตัว) -->
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -33,7 +32,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- 3. เนื้อหา เลื่อนได้เมื่อจอเตี้ย และไม่ไปทับเมนูด้านล่าง -->
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="0dp"
