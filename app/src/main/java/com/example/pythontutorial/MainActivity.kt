@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+        findViewById<View>(R.id.scroll).applySystemBarsPadding(includeBottom = false)
 
 //        val database: DatabaseHelper = DatabaseHelper(this)
 

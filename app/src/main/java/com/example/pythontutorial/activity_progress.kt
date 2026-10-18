@@ -20,6 +20,7 @@ class activity_progress : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_progress)
+        findViewById<View>(R.id.main).applySystemBarsPadding()
 
         database = DatabaseHelper(this)
 

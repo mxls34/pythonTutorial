@@ -36,6 +36,7 @@ class activity_function : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_function)
+        findViewById<View>(R.id.main).applySystemBarsPadding()
 
         showLesson = findViewById(R.id.lesson)
         database = DatabaseHelper(this)
