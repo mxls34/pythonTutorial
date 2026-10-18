@@ -18,6 +18,8 @@
     <dimen name="dp_64">96dp</dimen>
     <dimen name="dp_80">120dp</dimen>
     <dimen name="dp_100">150dp</dimen>
+    <dimen name="dp_160">240dp</dimen>
+    <dimen name="dp_260">390dp</dimen>
     <dimen name="dp_300">450dp</dimen>
 
     <dimen name="sp_12">18sp</dimen>

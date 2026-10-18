@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- แนวนอน (land) : ลิสต์ FINISH กับ NO FINISH YET อยู่ข้างกัน Total Score อยู่ด้านล่าง (id เหมือนไฟล์แนวตั้งทุกตัว) -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_10"
+    tools:context=".activity_progress" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/dp_15">
+
+        <ImageButton
+            android:id="@+id/backBtn"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_50"
+            android:layout_gravity="center"
+            android:background="@drawable/bg_glass"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/dp_13"
+            app:srcCompat="@drawable/outline_arrow_back" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dp_50"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp_25"
+            android:text="Progress" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingHorizontal="@dimen/dp_20"
+                android:textSize="@dimen/sp_18"
+                android:textStyle="bold|italic"
+                android:textColor="#FFA500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FINISH" />
+
+            <ListView
+                android:id="@+id/finish"
+                android:layout_width="@dimen/dp_300"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:paddingHorizontal="@dimen/dp_20"
+                android:textSize="@dimen/sp_18"
+                android:textStyle="bold|italic"
+                android:textColor="#FFA500"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NO FINISH YET" />
+
+            <ListView
+                android:id="@+id/notFinish"
+                android:layout_width="@dimen/dp_300"
+                android:layout_gravity="center_horizontal"
+                android:layout_height="0dp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/totalScore"
+        android:layout_marginTop="@dimen/dp_10"
+        android:divider="@null"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dp_80"
+        android:background="#87F6E766"
+        android:paddingLeft="@dimen/dp_15"
+        android:textSize="@dimen/sp_14"
+        android:textStyle="bold"
+        android:text="Total" />
+
+</LinearLayout>
