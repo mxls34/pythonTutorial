@@ -1,6 +1,8 @@
 package com.example.pythontutorial
 
 import android.os.Bundle
+import android.widget.Button
+import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.constraintlayout.widget.ConstraintLayout
@@ -15,5 +17,9 @@ class activity_game : AppCompatActivity() {
         val container = findViewById<ConstraintLayout>(R.id.main)
         val graphicsView = GraphicsView(this)
         container.addView(graphicsView, 0)
+
+        findViewById<ImageButton>(R.id.backBtn).setOnClickListener {
+            finish()
+        }
     }
 }
