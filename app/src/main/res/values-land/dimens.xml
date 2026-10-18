@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- การ์ดในหน้า Course (มือถือแนวนอน จอเตี้ย) -->
-    <dimen name="course_card_height">220dp</dimen>
-    <dimen name="course_image_height">110dp</dimen>
-</resources>

@@ -32,7 +32,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <!-- 3. เนื้อหา เลื่อนได้เมื่อจอเตี้ย (เช่นแนวนอน) และไม่ไปทับเมนูด้านล่าง -->
     <ScrollView
         android:id="@+id/scroll"
         android:layout_width="0dp"

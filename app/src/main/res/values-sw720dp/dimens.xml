@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- ขนาดสำหรับแท็บเล็ต 10 นิ้ว เช่น Pixel Tablet (x2) : ชื่อ dp_N / sp_N คือค่า N บนมือถือ -->
     <dimen name="dp_3">6dp</dimen>
     <dimen name="dp_5">10dp</dimen>
     <dimen name="dp_10">20dp</dimen>
@@ -18,6 +17,8 @@
     <dimen name="dp_64">128dp</dimen>
     <dimen name="dp_80">160dp</dimen>
     <dimen name="dp_100">200dp</dimen>
+    <dimen name="dp_160">320dp</dimen>
+    <dimen name="dp_260">520dp</dimen>
     <dimen name="dp_300">600dp</dimen>
 
     <dimen name="sp_12">24sp</dimen>
@@ -29,7 +30,6 @@
     <dimen name="sp_30">60sp</dimen>
     <dimen name="sp_36">72sp</dimen>
 
-    <!-- การ์ดในหน้า Course (แนวตั้ง) -->
     <dimen name="course_card_height">540dp</dimen>
     <dimen name="course_image_height">300dp</dimen>
 </resources>

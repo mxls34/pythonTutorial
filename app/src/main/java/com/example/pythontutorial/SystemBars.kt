@@ -4,7 +4,6 @@ import android.view.View
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 
-// เว้นที่ให้ status bar / navigation bar โดยบวกเพิ่มจาก padding เดิมของ layout (ไม่ทับของเดิม)
 fun View.applySystemBarsPadding(includeBottom: Boolean = true) {
     val padLeft = paddingLeft
     val padTop = paddingTop
