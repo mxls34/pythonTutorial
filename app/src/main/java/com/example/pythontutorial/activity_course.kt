@@ -31,6 +31,7 @@ class activity_course : AppCompatActivity() , AdapterView.OnItemClickListener{
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_course)
+        findViewById<View>(R.id.main).applySystemBarsPadding()
 
         val adapter: AdapterCourse = AdapterCourse(this, listCourse)
         viewCourse = findViewById(R.id.viewCourse)

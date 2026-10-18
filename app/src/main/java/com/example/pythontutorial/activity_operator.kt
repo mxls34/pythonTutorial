@@ -3,6 +3,7 @@ package com.example.pythontutorial
 import android.content.Intent
 import android.graphics.Color
 import android.os.Bundle
+import android.util.TypedValue
 import android.view.View
 import android.widget.Button
 import android.widget.ImageButton
@@ -36,6 +37,7 @@ class activity_operator : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_operator)
+        findViewById<View>(R.id.main).applySystemBarsPadding()
 
         showLesson = findViewById(R.id.lesson)
         database = DatabaseHelper(this)
@@ -60,7 +62,7 @@ class activity_operator : AppCompatActivity() {
                     val radio = RadioButton(this)
                     radio.id = View.generateViewId()
                     radio.text = choice
-                    radio.textSize = 16f
+                    radio.setTextSize(TypedValue.COMPLEX_UNIT_PX, resources.getDimension(R.dimen.sp_16))
                     radioGroup.addView(radio)
                 }
                 quizGroup = radioGroup

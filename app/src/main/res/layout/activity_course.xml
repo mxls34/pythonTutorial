@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="10dp"
+    android:padding="@dimen/dp_10"
     android:background="@drawable/bg_python_blur"
     tools:context=".activity_course">
 
@@ -15,23 +15,26 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:layout_marginTop="20dp">
+        android:layout_marginTop="@dimen/dp_20">
 
         <ImageButton
             android:id="@+id/backBtn"
-            android:layout_width="80dp"
-            android:layout_height="60dp"
+            android:layout_width="@dimen/dp_80"
+            android:layout_height="@dimen/dp_60"
             android:layout_gravity="center"
             android:background="@drawable/bg_glass"
+            android:scaleType="fitCenter"
+            android:padding="@dimen/dp_18"
             app:srcCompat="@drawable/outline_arrow_back" />
 
         <TextView
             android:id="@+id/textView3"
-            android:layout_width="250dp"
-            android:layout_height="80dp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="@dimen/dp_80"
             android:gravity="center"
             android:textStyle="bold"
-            android:textSize="25sp"
+            android:textSize="@dimen/sp_25"
             android:text="Course" />
 
     </LinearLayout>
@@ -41,9 +44,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:divider="@android:color/transparent"
-        android:dividerHeight="16dp"
-        android:padding="16dp"
-        android:layout_marginBottom="30dp"
+        android:dividerHeight="@dimen/dp_16"
+        android:padding="@dimen/dp_16"
+        android:layout_marginBottom="@dimen/dp_30"
         android:clipToPadding="false"/>
 
 </LinearLayout>
